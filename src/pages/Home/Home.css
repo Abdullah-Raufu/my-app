@@ -1,0 +1,73 @@
+.banner-img{
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.hero{position: relative;}
+
+.banner-img{
+    width: 100%;
+
+    mask-image: linear-gradient(to right, tranparent,blackv 75%);
+    -webkit-mask-image: linear-gradient(to right, tranparent,black 75%);
+}
+
+.hero-caption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+.caption-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.hero-caption h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Love Light', cursive;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+.hero-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.hero-btns .btn img{
+    width: 25px;
+}
+.hero-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .btn.dark-btn{
+    background: #333;
+    color: white;
+}
+.hero-btns .btn:hover{
+    opacity: 0.8;
+    background: #ffffff;
+}
+.hero-btns .btn.dark-btn:hover{
+    background: #333;
+    opacity: 0.8;
+}
+.more-cards{
+    padding-left: 6%;
+
+}
