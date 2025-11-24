@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar"
 import Footer from "../../components/Footer/Footer"
 import Backgroundimg from '../../assets/images/Backgroundimg.jpg'
 import playicon from '../../assets/icons/playicon.png'
-import infoicon from '../../assets/icons/infoicon.png'
+import Infoicon from '../../assets/icons/Infoicon.png'
 import TitleCard from "../../components/TitleCards/TitleCard"
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
 
               <div className="hero-btns">
                 <button className='btn'><img src={playicon} alt="" />Play Video</button>
-                <button className='btn dark-btn' alt=""><img src={infoicon} alt="" />More Videos</button>
+                <button className='btn dark-btn' alt=""><img src={Infoicon} alt="" />More Videos</button>
               </div>
         <TitleCard/>
           </div>
